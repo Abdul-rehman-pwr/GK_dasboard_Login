@@ -1,0 +1,42 @@
+pipeline {
+    agent { node { label 'master' } }
+    environment {
+        REGION_NAME = 'eu-central-1'
+        PROJECT_NAME = 'getkong-dashboard-live-build'
+    }
+    stages {
+        stage('Invoke Code Build') {
+            steps {
+                withCredentials([[
+                    $class: 'AmazonWebServicesCredentialsBinding',
+                    credentialsId: "aws-getkong-codebuild",
+                    accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+                    secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
+                ]]) {
+                    // AWS CodeBuild invocation
+                    sh '''
+                    aws codebuild start-build --project-name ${PROJECT_NAME} --region ${REGION_NAME}
+                    id=`aws codebuild list-builds-for-project --project-name ${PROJECT_NAME} --region ${REGION_NAME} --sort-order DESCENDING --max-items 1 --output text | grep IDS | awk '{print $2}'`
+                    while true; do
+                        status=`aws codebuild batch-get-builds --ids $id --region ${REGION_NAME} | jq -r '.builds[].buildStatus'`
+                        if [ $status != "IN_PROGRESS" ]; then
+                            break
+                        fi
+                        sleep 10
+                    done
+                    echo "CodeBuild run finished"
+                    aws codebuild batch-get-builds --ids $id --region ${REGION_NAME}
+                    BUILDID=`echo $id | cut -d':' -f2`
+                    LOG_GROUP_NAME="/aws/codebuild/${PROJECT_NAME}"
+                    LOG_STREAM_NAME=`aws codebuild batch-get-builds --ids $id --region ${REGION_NAME} | jq -r '.builds[].logs.streamName'`
+                    aws logs get-log-events --log-group-name "$LOG_GROUP_NAME" --log-stream-name "$LOG_STREAM_NAME" --limit 10000 --start-from-head --region eu-central-1 | jq -r '.events[].message' > $BUILDID.log
+                    cat $BUILDID.log
+                    if [ $status != "SUCCEEDED" ]; then
+                        exit 1
+                    fi
+                    '''
+                }
+            }
+        }
+    }
+}

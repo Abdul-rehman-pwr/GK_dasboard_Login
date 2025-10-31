@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Wie möchtest du deine Ware geliefert bekommen?",
+        "type": "single_choice",
+        "answerKey": "delivery_method"
+    },
+    {
+        "question": "Welche Beschwerde hast du?",
+        "type": "multiple_choice",
+        "answerKey": "symptoms"
+    },
+    {
+        "question": "Wann traten Ihre Symptome auf?",
+        "type": "single_choice",
+        "answerKey": "symptom_duration"
+    },
+    {
+        "question": "Wie häufig treten die Symptome bei Ihnen auf?",
+        "type": "single_choice",
+        "answerKey": "symptom_severity"
+    },
+    {
+        "question": "Hat ein Arzt Ihre Erkrankung bereits diagnostiziert und ggf behandelt?",
+        "type": "single_choice",
+        "answerKey": "consulted_doctor"
+    },
+    {
+        "question": "Wurde Ihnen in Deutschland in der Vergangenheit bereits Cannabis verschrieben?",
+        "type": "single_choice",
+        "answerKey": "medication_taken"
+    },
+    {
+        "question": "Welche positiven Auswirkungen hatte es?",
+        "type": "single_choice",
+        "answerKey": "expected_treatment_result"
+    },
+    {
+        "question": "Ich bestätige, dass ich die folgenden Kriterien erfülle",
+        "type": "single_choice",
+        "answerKey": "confirm_meet_criteria"
+    },
+    {
+        "question": "newsLetterAgreement",
+        "type": "single_choice",
+        "answerKey": "newsletter_agreement"
+    },
+    {
+        "question": "howDidYouHearAboutGetkong",
+        "type": "single_choice",
+        "answerKey": "hear_from"
+    }
+]

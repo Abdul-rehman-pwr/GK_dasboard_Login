@@ -1,0 +1,32 @@
+version: 0.2
+
+env:
+  variables:
+    BUCKET_NAME: "getkong-dashboard-livebucket"
+    DISTRIBUTION_ID: "EULUZ4T92I7TK"
+  parameter-store:
+    NEXT_PUBLIC_FRONTEND_BASE_URL: "/LIVE/GETKONG/Dashboard/NEXT_PUBLIC_FRONTEND_BASE_URL"
+    NEXT_PUBLIC_CORE_SERVICE_BASE_URL: "/LIVE/GETKONG/Dashboard/NEXT_PUBLIC_CORE_SERVICE_BASE_URL"
+    NEXT_PUBLIC_SHOP_SERVICE_BASE_URL: "/LIVE/GETKONG/Dashboard/NEXT_PUBLIC_SHOP_SERVICE_BASE_URL"
+    NEXT_PUBLIC_ADYEN_REDIRECT_URL: "/LIVE/GETKONG/Dashboard/NEXT_PUBLIC_FRONTEND_BASE_URL"
+phases:
+  build:
+    commands:
+      - echo Installing npm...
+      - npm install
+      - echo "NEXT_PUBLIC_FRONTEND_BASE_URL=${NEXT_PUBLIC_FRONTEND_BASE_URL}" >> .env
+      - echo "NEXT_PUBLIC_CORE_SERVICE_BASE_URL=${NEXT_PUBLIC_CORE_SERVICE_BASE_URL}" >> .env
+      - echo "NEXT_PUBLIC_SHOP_SERVICE_BASE_URL=${NEXT_PUBLIC_SHOP_SERVICE_BASE_URL}" >> .env
+      - echo Build started on `date`
+      - echo Running npm build...
+      - npm run build
+
+  post_build:
+    commands:
+      - echo Copying files to S3 bucket...
+      - aws s3 cp ./out/ s3://$BUCKET_NAME/ --recursive
+      - echo Invalidating CloudFront cache...
+      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"
+
+artifacts:
+  files: build/**

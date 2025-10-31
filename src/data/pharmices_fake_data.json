@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "pharmacyId": 1,
+            "pharmacyName": "Healthy Life Pharmacy",
+            "officialName": "Healthy Life Official",
+            "domain": "healthylife.com",
+            "email": "info@healthylife.com",
+            "phoneNumber": "+1234567890",
+            "shippingCostStandard": 12.5,
+            "isEnabled": true
+        },
+        {
+            "pharmacyId": 2,
+            "pharmacyName": "Wellness Hub",
+            "officialName": "Wellness Hub Ltd.",
+            "domain": "wellnesshub.com",
+            "email": "contact@wellnesshub.com",
+            "phoneNumber": "+1987654321",
+            "shippingCostStandard": 8.75,
+            "isEnabled": false
+        }
+    ]
+}

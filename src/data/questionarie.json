@@ -1,0 +1,386 @@
+[
+    {
+        "type": "input",
+        "id": "postcode",
+        "question": "Bitte gib deine Postleitzahl ein, damit wir die Lieferverfügbarkeit prüfen können",
+        "input_type": "text",
+        "placeholder": "z. B. 10115"
+    },
+    {
+        "type": "multiple_choice",
+        "id": "health_info_method",
+        "question": "Wie möchtest du Angaben zu deinem Gesundheitszustand machen?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Online-Fragebogen",
+                "value": "online_fragebogen"
+            },
+            {
+                "label": "Video-Sprechstunde",
+                "value": "video_sprechstunde"
+            },
+            {
+                "label": "Vor-Ort-Termin",
+                "value": "vor_ort_termin"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "shipping_method",
+        "question": "Wähle die Versandart, die nach einer möglichen Rezept­freigabe am besten zu dir passt.\n\nHinweis: Express­lieferung ist abhängig von Apotheken­verfügbarkeit und nur innerhalb der genannten Städte möglich:\n\n(BER | HAM | MUC | FFM | DUS | CGN)",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Express-Kurier",
+                "value": "express_kurier"
+            },
+            {
+                "label": "DHL-Versand",
+                "value": "dhl_versand"
+            },
+            {
+                "label": "Nur e-Rezept",
+                "value": "nur_e_rezept"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "received_prescription_before",
+        "question": "Hast du über getKong schon einmal ein Rezept erhalten?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Ja",
+                "value": "ja"
+            },
+            {
+                "label": "Nein",
+                "value": "nein"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "symptoms",
+        "question": "Welche Symptome hast du?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Chronische Schmerzen",
+                "value": "chronische_schmerzen"
+            },
+            {
+                "label": "Schlafstörung",
+                "value": "schlafstoerung"
+            },
+            {
+                "label": "AD(H)S",
+                "value": "adhs"
+            },
+            {
+                "label": "Migräne",
+                "value": "migraene"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "id": "symptom_description",
+        "question": "Bitte erläutere deine Beschwerden Liegt eine Diagnose oder liegen weitere Beschwerden vor?",
+        "input_type": "text",
+        "placeholder": "Beschreibe deine Beschwerden hier..."
+    },
+    {
+        "type": "scale",
+        "id": "symptom_severity",
+        "question": "Auf einer Skala von 1 bis 10: Wie stark belasten dich deine Symptome?",
+        "min_value": 1,
+        "max_value": 10
+    },
+    {
+        "type": "multiple_choice",
+        "id": "condition_duration",
+        "question": "Seit wann leidest du an der Haupterkrankung?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Über 12 Monate",
+                "value": "ueber_12_monate"
+            },
+            {
+                "label": "6-12 Monate",
+                "value": "6_12_monate"
+            },
+            {
+                "label": "Weniger als 6 Monate",
+                "value": "weniger_als_6_monate"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "consulted_doctor",
+        "question": "Hast du bereits einen Arzt zur Behandlung deiner Symptomatik aufgesucht?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Ja, habe ich",
+                "value": "ja"
+            },
+            {
+                "label": "Nein, habe ich nicht",
+                "value": "nein"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "treatment_location",
+        "question": "Wo wurdest du wegen deiner Beschwerden behandelt?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Hausarzt",
+                "value": "hausarzt"
+            },
+            {
+                "label": "Facharztpraxis",
+                "value": "facharztpraxis"
+            },
+            {
+                "label": "Krankenhaus",
+                "value": "krankenhaus"
+            },
+            {
+                "label": "Psychologe",
+                "value": "psychologe"
+            },
+            {
+                "label": "Heilpraktiker",
+                "value": "heilpraktiker"
+            },
+            {
+                "label": "Eigentherapie",
+                "value": "eigentherapie"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "medication_usage",
+        "question": "Hast du Medikamente wegen deiner Symptome eingenommen?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Ja",
+                "value": "ja"
+            },
+            {
+                "label": "Nein",
+                "value": "nein"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "id": "current_medications",
+        "question": "Nimmst du regelmäßig Medikamente ein oder hast du in letzter Zeit Medikamente eingenommen? Falls ja, gib den Namen, Dosierung und Einnahme an",
+        "input_type": "text",
+        "placeholder": "z. B. Ibuprofen 400 mg, 2× täglich"
+    },
+    {
+        "type": "multiple_choice",
+        "id": "non_medication_therapies",
+        "question": "Wurden bereits andere, nicht-medikamentöse Therapieversuche durchgeführt?",
+        "selection_type": "multiple",
+        "options": [
+            {
+                "label": "Physiotherapie",
+                "value": "physiotherapie"
+            },
+            {
+                "label": "Kur",
+                "value": "kur"
+            },
+            {
+                "label": "Massagen",
+                "value": "massagen"
+            },
+            {
+                "label": "Meditation",
+                "value": "meditation"
+            },
+            {
+                "label": "Sonstige",
+                "value": "sonstige"
+            },
+            {
+                "label": "Nein - Keine weiteren Behandlungsmethoden",
+                "value": "keine"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "age_check",
+        "question": "Bist du über 21 Jahre alt?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Ja",
+                "value": "ja"
+            },
+            {
+                "label": "Nein",
+                "value": "nein"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "pregnancy_status",
+        "question": "Bist du schwanger oder stillst du?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Ja",
+                "value": "ja"
+            },
+            {
+                "label": "Nein",
+                "value": "nein"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "cannabis_recent_usage",
+        "question": "Hast du innerhalb der letzten 30 Tage 100 g Cannabis in Form getrockneter Blüten oder 1 mg Cannabisextrakt (THC Gehalt) bezogen?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Ja",
+                "value": "ja"
+            },
+            {
+                "label": "Nein",
+                "value": "nein"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "preexisting_conditions",
+        "question": "Hast du eine der folgenden Vorerkrankungen / Beschwerden?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Schizophrenie, Wahnvorstellungen, Halluzinationen oder sonstige Zeichen von Psychose",
+                "value": "psychose"
+            },
+            {
+                "label": "Persönlichkeitsstörung (Borderline etc.)",
+                "value": "persoenlichkeitsstoerung"
+            },
+            {
+                "label": "Suchterkrankungen (z. B. Alkoholismus oder sonstige Drogenabhängigkeit)",
+                "value": "suchterkrankung"
+            },
+            {
+                "label": "Herzinsuffizienz, Koronare Herzkrankheit, Herzrhythmusstörungen oder vorheriger Herzinfarkt, Schlaganfall oder Thrombose/Embolie",
+                "value": "herz_kreislauf"
+            },
+            {
+                "label": "Schwere Leber- oder Nierenerkrankung",
+                "value": "leber_niere"
+            },
+            {
+                "label": "Schwere Angststörungen (z.B. ausgeprägte Panikattacken)",
+                "value": "angststoerung"
+            },
+            {
+                "label": "Allergie gegen THC/CBD-haltige Produkte",
+                "value": "allergie_thc_cbd"
+            },
+            {
+                "label": "Keine der genannten",
+                "value": "keine"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "cannabis_experience",
+        "question": "Hast du bereits Erfahrungen bei der Einnahme von Cannabis (Blütenform, Extrakt, o ä ) gemacht?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Ja, bereits Erfahrungen mit Cannabis gemacht",
+                "value": "ja"
+            },
+            {
+                "label": "Nein, noch keine Erfahrungen mit Cannabis",
+                "value": "nein"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "side_effects_experience",
+        "question": "Gab es ungewollte Nebenwirkungen?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Nein, keine Nebenwirkungen",
+                "value": "nein"
+            },
+            {
+                "label": "Ja, es gab ungewollte Nebenwirkungen",
+                "value": "ja"
+            }
+        ]
+    },
+    {
+        "type": "multiple_choice",
+        "id": "expected_outcomes",
+        "question": "Welche Behandlungsergebnisse erwartest du von einer Therapie mit medizinischem Cannabis?",
+        "selection_type": "single",
+        "options": [
+            {
+                "label": "Steigerung der Lebensqualität",
+                "value": "lebensqualitaet"
+            },
+            {
+                "label": "Linderung von Symptomen (z.B. Schmerzen, Schlafproblemen, innere Unruhe usw.)",
+                "value": "symptomlinderung"
+            },
+            {
+                "label": "Verbesserung der Funktionalität (z.B. Bewegung)",
+                "value": "funktionalitaet"
+            },
+            {
+                "label": "Verbesserung der Alltagsbewältigung (z.B. Haushaltsführung)",
+                "value": "alltag"
+            },
+            {
+                "label": "Verbesserung der Arbeitsfähigkeit",
+                "value": "arbeitsfaehigkeit"
+            },
+            {
+                "label": "Erhalt und Teilhabe am sozialen Leben",
+                "value": "soziales_leben"
+            },
+            {
+                "label": "Reduktion der Basismedikation",
+                "value": "medikation_reduktion"
+            },
+            {
+                "label": "Verringerung der Nebenwirkungen anderer Medikamente",
+                "value": "nebenwirkungen_andere"
+            }
+        ]
+    }
+]

@@ -1,0 +1,640 @@
+[
+    {
+        "name": {
+            "common": "Slovenia",
+            "official": "Republic of Slovenia",
+            "nativeName": {
+                "slv": {
+                    "official": "Republika Slovenija",
+                    "common": "Slovenija"
+                }
+            }
+        },
+        "cca2": "SI",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "France",
+            "official": "French Republic",
+            "nativeName": {
+                "fra": {
+                    "official": "République française",
+                    "common": "France"
+                }
+            }
+        },
+        "cca2": "FR",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Denmark",
+            "official": "Kingdom of Denmark",
+            "nativeName": {
+                "dan": {
+                    "official": "Kongeriget Danmark",
+                    "common": "Danmark"
+                }
+            }
+        },
+        "cca2": "DK",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Liechtenstein",
+            "official": "Principality of Liechtenstein",
+            "nativeName": {
+                "deu": {
+                    "official": "Fürstentum Liechtenstein",
+                    "common": "Liechtenstein"
+                }
+            }
+        },
+        "cca2": "LI",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Austria",
+            "official": "Republic of Austria",
+            "nativeName": {
+                "bar": {
+                    "official": "Republik Österreich",
+                    "common": "Österreich"
+                }
+            }
+        },
+        "cca2": "AT",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Gibraltar",
+            "official": "Gibraltar",
+            "nativeName": {
+                "eng": {
+                    "official": "Gibraltar",
+                    "common": "Gibraltar"
+                }
+            }
+        },
+        "cca2": "GI",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Singapore",
+            "official": "Republic of Singapore",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Singapore",
+                    "common": "Singapore"
+                },
+                "zho": {
+                    "official": "新加坡共和国",
+                    "common": "新加坡"
+                },
+                "msa": {
+                    "official": "Republik Singapura",
+                    "common": "Singapura"
+                },
+                "tam": {
+                    "official": "சிங்கப்பூர் குடியரசு",
+                    "common": "சிங்கப்பூர்"
+                }
+            }
+        },
+        "cca2": "SG",
+        "region": "Asia"
+    },
+    {
+        "name": {
+            "common": "Slovakia",
+            "official": "Slovak Republic",
+            "nativeName": {
+                "slk": {
+                    "official": "Slovenská republika",
+                    "common": "Slovensko"
+                }
+            }
+        },
+        "cca2": "SK",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Hong Kong",
+            "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+            "nativeName": {
+                "eng": {
+                    "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+                    "common": "Hong Kong"
+                },
+                "zho": {
+                    "official": "中华人民共和国香港特别行政区",
+                    "common": "香港"
+                }
+            }
+        },
+        "cca2": "HK",
+        "region": "Asia"
+    },
+    {
+        "name": {
+            "common": "Malta",
+            "official": "Republic of Malta",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Malta",
+                    "common": "Malta"
+                },
+                "mlt": {
+                    "official": "Repubblika ta ' Malta",
+                    "common": "Malta"
+                }
+            }
+        },
+        "cca2": "MT",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "United States",
+            "official": "United States of America",
+            "nativeName": {
+                "eng": {
+                    "official": "United States of America",
+                    "common": "United States"
+                }
+            }
+        },
+        "cca2": "US",
+        "region": "Americas"
+    },
+    {
+        "name": {
+            "common": "Guernsey",
+            "official": "Bailiwick of Guernsey",
+            "nativeName": {
+                "eng": {
+                    "official": "Bailiwick of Guernsey",
+                    "common": "Guernsey"
+                },
+                "fra": {
+                    "official": "Bailliage de Guernesey",
+                    "common": "Guernesey"
+                },
+                "nfr": {
+                    "official": "Dgèrnésiais",
+                    "common": "Dgèrnésiais"
+                }
+            }
+        },
+        "cca2": "GG",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Hungary",
+            "official": "Hungary",
+            "nativeName": {
+                "hun": {
+                    "official": "Magyarország",
+                    "common": "Magyarország"
+                }
+            }
+        },
+        "cca2": "HU",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Canada",
+            "official": "Canada",
+            "nativeName": {
+                "eng": {
+                    "official": "Canada",
+                    "common": "Canada"
+                },
+                "fra": {
+                    "official": "Canada",
+                    "common": "Canada"
+                }
+            }
+        },
+        "cca2": "CA",
+        "region": "Americas"
+    },
+    {
+        "name": {
+            "common": "Norway",
+            "official": "Kingdom of Norway",
+            "nativeName": {
+                "nno": {
+                    "official": "Kongeriket Noreg",
+                    "common": "Noreg"
+                },
+                "nob": {
+                    "official": "Kongeriket Norge",
+                    "common": "Norge"
+                },
+                "smi": {
+                    "official": "Norgga gonagasriika",
+                    "common": "Norgga"
+                }
+            }
+        },
+        "cca2": "NO",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "New Zealand",
+            "official": "New Zealand",
+            "nativeName": {
+                "eng": {
+                    "official": "New Zealand",
+                    "common": "New Zealand"
+                },
+                "mri": {
+                    "official": "Aotearoa",
+                    "common": "Aotearoa"
+                },
+                "nzs": {
+                    "official": "New Zealand",
+                    "common": "New Zealand"
+                }
+            }
+        },
+        "cca2": "NZ",
+        "region": "Oceania"
+    },
+    {
+        "name": {
+            "common": "Czech Republic",
+            "official": "Czech Republic",
+            "nativeName": {
+                "ces": {
+                    "official": "Česká republika",
+                    "common": "Česko"
+                },
+                "slk": {
+                    "official": "Česká republika",
+                    "common": "Česko"
+                }
+            }
+        },
+        "cca2": "CZ",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Finland",
+            "official": "Republic of Finland",
+            "nativeName": {
+                "fin": {
+                    "official": "Suomen tasavalta",
+                    "common": "Suomi"
+                },
+                "swe": {
+                    "official": "Republiken Finland",
+                    "common": "Finland"
+                }
+            }
+        },
+        "cca2": "FI",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Luxembourg",
+            "official": "Grand Duchy of Luxembourg",
+            "nativeName": {
+                "deu": {
+                    "official": "Großherzogtum Luxemburg",
+                    "common": "Luxemburg"
+                },
+                "fra": {
+                    "official": "Grand-Duché de Luxembourg",
+                    "common": "Luxembourg"
+                },
+                "ltz": {
+                    "official": "Groussherzogtum Lëtzebuerg",
+                    "common": "Lëtzebuerg"
+                }
+            }
+        },
+        "cca2": "LU",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Spain",
+            "official": "Kingdom of Spain",
+            "nativeName": {
+                "spa": {
+                    "official": "Reino de España",
+                    "common": "España"
+                }
+            }
+        },
+        "cca2": "ES",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Latvia",
+            "official": "Republic of Latvia",
+            "nativeName": {
+                "lav": {
+                    "official": "Latvijas Republikas",
+                    "common": "Latvija"
+                }
+            }
+        },
+        "cca2": "LV",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Cyprus",
+            "official": "Republic of Cyprus",
+            "nativeName": {
+                "ell": {
+                    "official": "Δημοκρατία της Κύπρος",
+                    "common": "Κύπρος"
+                },
+                "tur": {
+                    "official": "Kıbrıs Cumhuriyeti",
+                    "common": "Kıbrıs"
+                }
+            }
+        },
+        "cca2": "CY",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Portugal",
+            "official": "Portuguese Republic",
+            "nativeName": {
+                "por": {
+                    "official": "República Portuguesa",
+                    "common": "Portugal"
+                }
+            }
+        },
+        "cca2": "PT",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Lithuania",
+            "official": "Republic of Lithuania",
+            "nativeName": {
+                "lit": {
+                    "official": "Lietuvos Respublikos",
+                    "common": "Lietuva"
+                }
+            }
+        },
+        "cca2": "LT",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Greece",
+            "official": "Hellenic Republic",
+            "nativeName": {
+                "ell": {
+                    "official": "Ελληνική Δημοκρατία",
+                    "common": "Ελλάδα"
+                }
+            }
+        },
+        "cca2": "GR",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Croatia",
+            "official": "Republic of Croatia",
+            "nativeName": {
+                "hrv": {
+                    "official": "Republika Hrvatska",
+                    "common": "Hrvatska"
+                }
+            }
+        },
+        "cca2": "HR",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "United Kingdom",
+            "official": "United Kingdom of Great Britain and Northern Ireland",
+            "nativeName": {
+                "eng": {
+                    "official": "United Kingdom of Great Britain and Northern Ireland",
+                    "common": "United Kingdom"
+                }
+            }
+        },
+        "cca2": "GB",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Ireland",
+            "official": "Republic of Ireland",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Ireland",
+                    "common": "Ireland"
+                },
+                "gle": {
+                    "official": "Poblacht na hÉireann",
+                    "common": "Éire"
+                }
+            }
+        },
+        "cca2": "IE",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Bulgaria",
+            "official": "Republic of Bulgaria",
+            "nativeName": {
+                "bul": {
+                    "official": "Република България",
+                    "common": "България"
+                }
+            }
+        },
+        "cca2": "BG",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Romania",
+            "official": "Romania",
+            "nativeName": {
+                "ron": {
+                    "official": "România",
+                    "common": "România"
+                }
+            }
+        },
+        "cca2": "RO",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Estonia",
+            "official": "Republic of Estonia",
+            "nativeName": {
+                "est": {
+                    "official": "Eesti Vabariik",
+                    "common": "Eesti"
+                }
+            }
+        },
+        "cca2": "EE",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Australia",
+            "official": "Commonwealth of Australia",
+            "nativeName": {
+                "eng": {
+                    "official": "Commonwealth of Australia",
+                    "common": "Australia"
+                }
+            }
+        },
+        "cca2": "AU",
+        "region": "Oceania"
+    },
+    {
+        "name": {
+            "common": "Italy",
+            "official": "Italian Republic",
+            "nativeName": {
+                "ita": {
+                    "official": "Repubblica italiana",
+                    "common": "Italia"
+                }
+            }
+        },
+        "cca2": "IT",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Switzerland",
+            "official": "Swiss Confederation",
+            "nativeName": {
+                "fra": {
+                    "official": "Confédération suisse",
+                    "common": "Suisse"
+                },
+                "gsw": {
+                    "official": "Schweizerische Eidgenossenschaft",
+                    "common": "Schweiz"
+                },
+                "ita": {
+                    "official": "Confederazione Svizzera",
+                    "common": "Svizzera"
+                },
+                "roh": {
+                    "official": "Confederaziun svizra",
+                    "common": "Svizra"
+                }
+            }
+        },
+        "cca2": "CH",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Germany",
+            "official": "Federal Republic of Germany",
+            "nativeName": {
+                "deu": {
+                    "official": "Bundesrepublik Deutschland",
+                    "common": "Deutschland"
+                }
+            }
+        },
+        "cca2": "DE",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Netherlands",
+            "official": "Kingdom of the Netherlands",
+            "nativeName": {
+                "nld": {
+                    "official": "Koninkrijk der Nederlanden",
+                    "common": "Nederland"
+                }
+            }
+        },
+        "cca2": "NL",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Poland",
+            "official": "Republic of Poland",
+            "nativeName": {
+                "pol": {
+                    "official": "Rzeczpospolita Polska",
+                    "common": "Polska"
+                }
+            }
+        },
+        "cca2": "PL",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Sweden",
+            "official": "Kingdom of Sweden",
+            "nativeName": {
+                "swe": {
+                    "official": "Konungariket Sverige",
+                    "common": "Sverige"
+                }
+            }
+        },
+        "cca2": "SE",
+        "region": "Europe"
+    },
+    {
+        "name": {
+            "common": "Belgium",
+            "official": "Kingdom of Belgium",
+            "nativeName": {
+                "deu": {
+                    "official": "Königreich Belgien",
+                    "common": "Belgien"
+                },
+                "fra": {
+                    "official": "Royaume de Belgique",
+                    "common": "Belgique"
+                },
+                "nld": {
+                    "official": "Koninkrijk België",
+                    "common": "België"
+                }
+            }
+        },
+        "cca2": "BE",
+        "region": "Europe"
+    }
+]

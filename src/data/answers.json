@@ -1,0 +1,23 @@
+{
+    "postal_code": "10115",
+    "delivery_method": "Per Post",
+    "desired_pharmacy_contact": "Ja",
+    "prior_prescription": "Nein",
+    "prior_prescription_email": "",
+    "symptoms": "Schlafstörungen, Schmerzen",
+    "symptom_description": "Ich habe seit Jahren chronische Rückenschmerzen.",
+    "symptom_severity": "Stark",
+    "symptom_duration": "Mehr als 12 Monate",
+    "consulted_doctor": "Ja",
+    "treatment_locations": "Hausarzt, Orthopäde",
+    "medication_taken": "Ja",
+    "medication_details": "Ibuprofen 600mg täglich",
+    "other_therapies": "Physiotherapie, Akupunktur",
+    "age_over_21": "Ja",
+    "pregnant_or_breastfeeding": "Nein",
+    "cannabis_purchase_last_30_days_more_than_100g": "Nein",
+    "contraindications": "Keine bekannt",
+    "cannabis_experience": "Gelegentlich",
+    "cannabis_side_effects": "Keine",
+    "expected_treatment_result": "Bessere Schlafqualität und weniger Schmerzen"
+}

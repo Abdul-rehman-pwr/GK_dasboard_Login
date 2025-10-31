@@ -1,0 +1,379 @@
+[
+    {
+        "invoiceDto": {
+            "customizationId": "urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0",
+            "profileId": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+            "id": "2025-6",
+            "issueDate": 1742169600000,
+            "dueDate": 1742774400000,
+            "invoiceTypeCode": 380,
+            "note": "No notes",
+            "taxPointDate": 1742169600000,
+            "documentCurrencyCode": "EUR",
+            "buyerReference": "N/A",
+            "orderReferenceDto": {
+                "id": 0,
+                "salesOrderId": "defaultSalesOrderId"
+            },
+            "accountingSupplierPartyDto": {
+                "partyDto": {
+                    "endpointIdDto": {
+                        "schemeId": "0007",
+                        "text": "0"
+                    },
+                    "partyNameDto": {
+                        "name": "I-ways sales"
+                    },
+                    "postalAddressDto": {
+                        "streetName": "Default Street",
+                        "cityName": "Berlin",
+                        "postalZone": "1",
+                        "countryDto": {
+                            "identificationCode": "DE"
+                        }
+                    },
+                    "partyTaxSchemeDto": {
+                        "companyId": "defaultCompanyId",
+                        "taxSchemeDto": {
+                            "id": "defaultTaxScheme"
+                        }
+                    },
+                    "partyLegalEntityDto": {
+                        "registrationName": "I-ways sales",
+                        "companyID": "defaultCompanyID",
+                        "companyLegalForm": "defaultLegalForm"
+                    },
+                    "contactDto": {
+                        "name": "I-ways sales",
+                        "telephone": "0000000000",
+                        "electronicMail": "default@example.com"
+                    }
+                }
+            },
+            "accountingCustomerPartyDto": {
+                "customerPartyDto": {
+                    "endpointIdDto": {
+                        "schemeId": "0007",
+                        "text": "0"
+                    },
+                    "partyNameDto": {
+                        "name": "Talha initiator"
+                    },
+                    "partyIdentificationDto": {
+                        "id": "22"
+                    },
+                    "postalAddressDto": {
+                        "streetName": "bwp",
+                        "cityName": "bwp",
+                        "postalZone": "33333",
+                        "countryDto": {
+                            "identificationCode": "DE"
+                        }
+                    },
+                    "customerPartyLegalEntityDto": {
+                        "registrationName": "Private"
+                    }
+                }
+            },
+            "paymentMeansDto": {
+                "paymentMeansCode": "1",
+                "payeeFinancialAccountDto": {
+                    "id": "defaultAccountId"
+                }
+            },
+            "paymentTermsDto": {
+                "note": "No payment terms"
+            },
+            "taxTotalDto": {
+                "taxAmountDto": {
+                    "currencyId": "EUR",
+                    "value": 1
+                },
+                "taxSubtotalDto": [
+                    {
+                        "taxableAmountDto": {
+                            "currencyId": "EUR",
+                            "value": 100
+                        },
+                        "taxAmountDto": {
+                            "currencyId": "EUR",
+                            "value": 1
+                        },
+                        "taxCategoryDto": {
+                            "id": "E",
+                            "value": 1,
+                            "taxSchemeDto": {
+                                "id": "VAT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "legalMonetaryTotalDto": {
+                "lineExtensionAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 100
+                },
+                "taxExclusiveAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 100
+                },
+                "taxInclusiveAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 101
+                },
+                "payableAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 101
+                }
+            },
+            "invoiceLineDto": [
+                {
+                    "id": "0",
+                    "note": "No line note",
+                    "invoicedQuantityDto": {
+                        "unitCode": "H87",
+                        "value": 1
+                    },
+                    "lineExtensionAmountDto": {
+                        "currencyID": "EUR",
+                        "value": 100
+                    },
+                    "invoicePeriodDto": {
+                        "startDate": 1742169600000,
+                        "endDate": 1742169600000
+                    },
+                    "orderLineReferenceDto": {},
+                    "itemDto": {
+                        "name": "fsags",
+                        "description": "sgsg",
+                        "sellersItemIdentificationDto": {},
+                        "commodityClassificationDto": {
+                            "itemClassificationCodeDto": {
+                                "listId": "SRV",
+                                "text": "Default Classification Text"
+                            }
+                        },
+                        "classifiedTaxCategoryDto": {
+                            "id": "E",
+                            "value": 1,
+                            "taxSchemeDto": {
+                                "id": "VAT"
+                            }
+                        }
+                    },
+                    "priceDto": {
+                        "priceAmountDto": {
+                            "currencyID": "EUR",
+                            "value": 100
+                        }
+                    }
+                }
+            ],
+            "invoiceStatus": "NOT_SENT",
+            "imageUrl": "https://bill-e-core-service-dev.s3.eu-central-1.amazonaws.com/6208_download.jpeg",
+            "templateId": 1,
+            "templateCustomizedData": "{\"backgroundColor\":\"#1671C3\",\"color\":\"#1671C3\",\"font\":\"Arial\",\"invoiceBackGround\":\"\",\"invoiceText\":\"default\",\"layout\":\"Rounded\",\"themeColor\":\"#1671C3\",\"currency\":\"€\"}",
+            "itemDiscounts": [
+                {
+                    "name": "fsags",
+                    "vat": 1,
+                    "quantity": 0,
+                    "category": "sale_of_services",
+                    "noVatReason": "Exempt from VAT"
+                }
+            ],
+            "deliveryDate": 1742151600000
+        },
+        "creditNoteDto": null
+    },
+    {
+        "invoiceDto": {
+            "customizationId": "urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0",
+            "profileId": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+            "id": "2025-5",
+            "issueDate": 1741910400000,
+            "dueDate": 1742515200000,
+            "invoiceTypeCode": 380,
+            "note": "No notes",
+            "taxPointDate": 1741910400000,
+            "documentCurrencyCode": "EUR",
+            "buyerReference": "N/A",
+            "orderReferenceDto": {
+                "id": 0,
+                "salesOrderId": "defaultSalesOrderId"
+            },
+            "accountingSupplierPartyDto": {
+                "partyDto": {
+                    "endpointIdDto": {
+                        "schemeId": "0007",
+                        "text": "0"
+                    },
+                    "partyNameDto": {
+                        "name": "I-ways sales"
+                    },
+                    "postalAddressDto": {
+                        "streetName": "Default Street",
+                        "cityName": "Berlin",
+                        "postalZone": "1",
+                        "countryDto": {
+                            "identificationCode": "DE"
+                        }
+                    },
+                    "partyTaxSchemeDto": {
+                        "companyId": "defaultCompanyId",
+                        "taxSchemeDto": {
+                            "id": "defaultTaxScheme"
+                        }
+                    },
+                    "partyLegalEntityDto": {
+                        "registrationName": "I-ways sales",
+                        "companyID": "defaultCompanyID",
+                        "companyLegalForm": "defaultLegalForm"
+                    },
+                    "contactDto": {
+                        "name": "I-ways sales",
+                        "telephone": "0000000000",
+                        "electronicMail": "default@example.com"
+                    }
+                }
+            },
+            "accountingCustomerPartyDto": {
+                "customerPartyDto": {
+                    "endpointIdDto": {
+                        "schemeId": "0007",
+                        "text": "0"
+                    },
+                    "partyNameDto": {
+                        "name": "Talha initiator"
+                    },
+                    "partyIdentificationDto": {
+                        "id": "22"
+                    },
+                    "postalAddressDto": {
+                        "streetName": "bwp",
+                        "cityName": "bwp",
+                        "postalZone": "33333",
+                        "countryDto": {
+                            "identificationCode": "DE"
+                        }
+                    },
+                    "customerPartyLegalEntityDto": {
+                        "registrationName": "Private"
+                    }
+                }
+            },
+            "paymentMeansDto": {
+                "paymentMeansCode": "1",
+                "payeeFinancialAccountDto": {
+                    "id": "defaultAccountId"
+                }
+            },
+            "paymentTermsDto": {
+                "note": "No payment terms"
+            },
+            "taxTotalDto": {
+                "taxAmountDto": {
+                    "currencyId": "EUR",
+                    "value": 4.84
+                },
+                "taxSubtotalDto": [
+                    {
+                        "taxableAmountDto": {
+                            "currencyId": "EUR",
+                            "value": 22
+                        },
+                        "taxAmountDto": {
+                            "currencyId": "EUR",
+                            "value": 4.84
+                        },
+                        "taxCategoryDto": {
+                            "id": "S",
+                            "value": 22,
+                            "taxSchemeDto": {
+                                "id": "VAT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "legalMonetaryTotalDto": {
+                "lineExtensionAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 22
+                },
+                "taxExclusiveAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 22
+                },
+                "taxInclusiveAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 26.84
+                },
+                "payableAmountDto": {
+                    "currencyID": "EUR",
+                    "value": 26.84
+                }
+            },
+            "invoiceLineDto": [
+                {
+                    "id": "0",
+                    "note": "No line note",
+                    "invoicedQuantityDto": {
+                        "unitCode": "H87",
+                        "value": 1
+                    },
+                    "lineExtensionAmountDto": {
+                        "currencyID": "EUR",
+                        "value": 22
+                    },
+                    "invoicePeriodDto": {
+                        "startDate": 1741910400000,
+                        "endDate": 1741910400000
+                    },
+                    "orderLineReferenceDto": {},
+                    "itemDto": {
+                        "name": "Talha initiator",
+                        "description": "sasa",
+                        "sellersItemIdentificationDto": {},
+                        "commodityClassificationDto": {
+                            "itemClassificationCodeDto": {
+                                "listId": "SRV",
+                                "text": "Default Classification Text"
+                            }
+                        },
+                        "classifiedTaxCategoryDto": {
+                            "id": "S",
+                            "value": 22,
+                            "taxSchemeDto": {
+                                "id": "VAT"
+                            }
+                        }
+                    },
+                    "priceDto": {
+                        "priceAmountDto": {
+                            "currencyID": "EUR",
+                            "value": 22
+                        }
+                    }
+                }
+            ],
+            "invoiceStatus": "NOT_SENT",
+            "imageUrl": "https://bill-e-core-service-dev.s3.eu-central-1.amazonaws.com/0416_dvb.png",
+            "templateId": 1,
+            "templateCustomizedData": "{\"backgroundColor\":\"#1671C3\",\"color\":\"#1671C3\",\"font\":\"Arial\",\"invoiceBackGround\":\"\",\"invoiceText\":\"default\",\"layout\":\"Rounded\",\"themeColor\":\"#1671C3\",\"currency\":\"€\"}",
+            "itemDiscounts": [
+                {
+                    "name": "Talha initiator",
+                    "vat": 22,
+                    "quantity": 0,
+                    "category": "sale_of_services",
+                    "noVatReason": "Exempt from VAT"
+                }
+            ],
+            "deliveryDate": 1741892400000
+        },
+        "creditNoteDto": null
+    },
+
+]
